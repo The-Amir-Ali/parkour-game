@@ -24,3 +24,39 @@
   left: 30%;
   bottom: 15%;
 }
+
+.part.four {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+}
+
+.part.five {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 50%;
+  bottom: 25%;
+}
+
+.part.six {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 60%;
+  bottom: 30%;
+}
+
+.part.seven {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 70%;
+  bottom: 35%;
+}
