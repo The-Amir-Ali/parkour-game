@@ -1,0 +1,26 @@
+.part.one {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 10%;
+  bottom: 5%;
+}
+
+.part.two {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 20%;
+  bottom: 10%;
+}
+
+.part.three {
+  width: 3rem;
+  height: 2rem;
+  background-color: red;
+  position: absolute;
+  left: 30%;
+  bottom: 15%;
+}
