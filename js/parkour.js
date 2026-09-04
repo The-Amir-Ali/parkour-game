@@ -40,7 +40,7 @@ document.addEventListener('keydown', (e) => {
     if (e.repeat) return;
     ballState.isJumping = true;
     ballState.isOnGround = false;
-    ballState.vy = -25;
+    ballState.vy = -10;
   } else if (e.key === 'd' || e.key === 'ArrowRight') {
     ballState.isMovingForward = true;
   } else if (e.key === 'a' || e.key === 'ArrowLeft') {
@@ -61,7 +61,7 @@ function moveLoop() {
   let oldY = ballState.y;
   let oldX = ballState.x;
   if (!ballState.isOnGround) {
-    ballState.vy += 0.8;
+    ballState.vy += 0.5;
     ballState.y += ballState.vy;
     if (ballState.y >= document.body.offsetHeight - ballState.height) {
       ballState.y = document.body.offsetHeight - ballState.height;
